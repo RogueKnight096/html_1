@@ -1,4 +1,14 @@
-.bg-color
+*
 {
     background-color: purple;
+}
+
+.title
+{
+    color: blue;
+}
+
+.paragraph
+{
+    color: pink;
 }

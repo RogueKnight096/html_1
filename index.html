@@ -7,7 +7,7 @@
   <title>The People I TOTALLY Don't Stalk</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<h1><strong>People I May or May Not Know</strong></h1>
+<div class="title"><h1><strong>People I May or May Not Know</strong></h1></div>
 
 <ol>
     <li>Madigan Haselwood</li>
@@ -27,8 +27,9 @@
   <head><h2>The Legends of Francis Tuttle’s Computer Science Academy</h2></head>
 
 <body>
-  <p>At Francis Tuttle’s Computer Science Academy, Madigan Haselwood has become somewhat of a legend—not just because she’s the only girl in the program, but because she once debugged a crashed server by ear. Rumor has it she can identify different types of compiler errors just by listening to the fans on the lab computers. Deacon McClain, meanwhile, is the Academy’s unofficial “energy drink sommelier,” known for his carefully curated fridge of exotic caffeinated beverages (and for accidentally short-circuiting a Raspberry Pi with a spilled Monster once). Anthony “something something” has made it his mission to name every variable in his code after obscure movie characters, which makes collaborating with him both hilarious and completely chaotic. Clint—who might actually be named Clint, or might not, no one’s sure—has built an AI that auto-generates excuses for late assignments. Sam Lewis is the quiet genius who built a working drone out of spare keyboard parts, just to prove he could.</p>
+  <div class="paragraph"><p>At Francis Tuttle’s Computer Science Academy, Madigan Haselwood has become somewhat of a legend—not just because she’s the only girl in the program, but because she once debugged a crashed server by ear. Rumor has it she can identify different types of compiler errors just by listening to the fans on the lab computers. Deacon McClain, meanwhile, is the Academy’s unofficial “energy drink sommelier,” known for his carefully curated fridge of exotic caffeinated beverages (and for accidentally short-circuiting a Raspberry Pi with a spilled Monster once). Anthony “something something” has made it his mission to name every variable in his code after obscure movie characters, which makes collaborating with him both hilarious and completely chaotic. Clint—who might actually be named Clint, or might not, no one’s sure—has built an AI that auto-generates excuses for late assignments. Sam Lewis is the quiet genius who built a working drone out of spare keyboard parts, just to prove he could.</p>
   <p>Then there’s Beau Bockus—the myth, the legend, the self-proclaimed “cyber cowboy.” He once wrote an entire game engine from scratch during a snow day and then used it to make a fully playable simulation of the computer lab, complete with NPCs of his classmates that argue about syntax errors. Jesse, on the other hand, insists he’s “more of a hardware guy,” though he’s accidentally fried enough Arduino boards to start a small museum. Xavier is the Academy’s resident hacker-in-training, famous for his ability to find Wi-Fi networks that technically shouldn’t exist, and Matthew Coleman is known for trying to teach everyone Python through interpretive dance. And of course, Deacon McClain (again)—yes, there are two of him, or so the class claims—might just be a cloned beta version of the original, made by Beau during a late-night coding experiment gone too far.</p>
+  </div> 
   <div class="container">
   <table>
       <tr>
@@ -89,6 +90,25 @@
     </tbody>
     </table>
   </div>
+
+<div class="container">
+  <h2>Striped Rows</h2>
+  <p>The .table-striped class adds zebra-stripes to a table:</p>            
+  <table class="table-striped">
+    <thead>
+    <tr> 
+      <td>Madigan</td>
+      <td>Haselwood</td>
+      <td>10</td>
+    </tr>
+    <tr> 
+      <td>Deacon</td>
+      <td>Mcclain</td>
+      <td>9.5</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
 </body>
 
   (Fun lil fact about me)
@@ -103,10 +123,12 @@
 <a href="img/1000001165.jpg" target="_blank" rel="noopener noreferrer"> Super Secret Beau Photo...</a>
 </body>
 
-<div class="row">
-  <div class="col"></div>
-  <div class="col"></div>
-  <div class="col"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-">Test 1</div>
+    <div class="col-lg-">Test 2</div>
+    <div class="col-lg-">Test 3</div>
+  </div>
 </div>
 
 <h1> Test Time! How many rows can you see?</p>
@@ -115,5 +137,4 @@
 <h4> Level 3: Medium - I'm running out of things to say.</p>
 <h5> Level 4: Hard - You can see pretty well. </p>
 <h6> Level 5: VERY HARD INCREDIBLE - If you can read this you can see ok.</p>
-
 </html>
